@@ -1,0 +1,4 @@
+.header {
+  @apply text-3xl font-bold mb-4;
+  color: var(--color-primary);
+}

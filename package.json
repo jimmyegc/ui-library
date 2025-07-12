@@ -1,0 +1,27 @@
+{
+  "name": "@jimmyegc/ui-library",
+  "version": "1.0.0",
+  "description": "UI component library with Tailwind CSS v4",
+  "main": "dist/styles.css",
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ui",
+    "tailwind",
+    "library"
+  ],
+  "author": "Jimmy García",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^4.0.0-alpha.3",
+    "vite": "^4.4.9"
+  }
+}

@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #EC5C2C;
+  --color-secondary: #29285A;
+  --color-third: #F18C6B;
+}
+
+@layer components {
+  @import "./components/button.css";
+  @import "./components/card.css";
+  @import "./components/navbar.css";
+  @import "./components/header.css";
+  @import "./components/footer.css";
+}

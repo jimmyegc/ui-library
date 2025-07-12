@@ -1,0 +1,8 @@
+.btn {
+  @apply px-4 py-2 rounded text-white font-bold transition;
+  background-color: var(--color-primary);
+}
+
+.btn:hover {
+  background-color: var(--color-secondary);
+}

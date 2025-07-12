@@ -1,0 +1,4 @@
+.navbar {
+  @apply w-full flex items-center justify-between text-white p-4;
+  background-color: var(--color-secondary);
+}
